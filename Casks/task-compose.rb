@@ -2,7 +2,7 @@
 cask "task-compose" do
   desc "Designed to orchestrate and execute a series of commands based on a declarative YAML configuration file."
   homepage "https://github.com/vulcanshen-tpi/task-compose"
-  version "1.1.4"
+  version "1.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "task-compose" do
 
   on_macos do
     on_intel do
-      url "https://github.com/vulcanshen-tpi/task-compose/releases/download/v1.1.4/task-compose_1.1.4_darwin_amd64.tar.gz"
-      sha256 "a6543bcc2dd54541ace1bc50e2ebbf674a63c591b7f500711e6099cabdbee020"
+      url "https://github.com/vulcanshen-tpi/task-compose/releases/download/v1.2.0/task-compose_1.2.0_darwin_amd64.tar.gz"
+      sha256 "e4de99f16c8637151ea1323f123f52fc9e7c3f7bf1a4bcf77488c9442740d95f"
     end
     on_arm do
-      url "https://github.com/vulcanshen-tpi/task-compose/releases/download/v1.1.4/task-compose_1.1.4_darwin_arm64.tar.gz"
-      sha256 "0da85728439401109ec5b934a942f3e203caea66826cee9ce10319def5b1ec08"
+      url "https://github.com/vulcanshen-tpi/task-compose/releases/download/v1.2.0/task-compose_1.2.0_darwin_arm64.tar.gz"
+      sha256 "51650f839fda75fd8422a4cec0d7d46c778030bfe342963c5ec5479f5e247e7b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/vulcanshen-tpi/task-compose/releases/download/v1.1.4/task-compose_1.1.4_linux_amd64.tar.gz"
-      sha256 "6d44159ccd6d5434f08722a8b714792e522f706167080811d709395fa8fa30c7"
+      url "https://github.com/vulcanshen-tpi/task-compose/releases/download/v1.2.0/task-compose_1.2.0_linux_amd64.tar.gz"
+      sha256 "31da8457b4e7c74876c27d0975d1a58f68bde50c079545ba83cee228748d84a1"
     end
     on_arm do
-      url "https://github.com/vulcanshen-tpi/task-compose/releases/download/v1.1.4/task-compose_1.1.4_linux_arm64.tar.gz"
-      sha256 "014aced2146d77602e947f2d8d9a2a42e22da6c3265aba3726d82b198083e490"
+      url "https://github.com/vulcanshen-tpi/task-compose/releases/download/v1.2.0/task-compose_1.2.0_linux_arm64.tar.gz"
+      sha256 "f931644e837f85f624ee896b0ad8f0ba6744d35fa54fe71bd890c370655bc131"
     end
   end
 
